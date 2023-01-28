@@ -1,0 +1,209 @@
+#firstColumn {
+  display: flex;
+  padding: 0px 50px;
+}
+
+#title {
+  flex-grow: 1;
+  font-family: "Great Vibes", cursive;
+  font-size: 20pt;
+}
+
+#search {
+  flex-grow: 1;
+  text-align: right;
+  padding-top: 20px;
+}
+
+#foodNavBar {
+  display: flex;
+}
+
+#foodNavBar a {
+  flex-grow: 1;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+#foodNavBar a:hover {
+  background: black;
+  color: white;
+}
+
+hr {
+  height: 2px;
+  background-color: grey;
+  color: grey;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Great Vibes", cursive;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Great Vibes", cursive;
+}
+
+.mainContent {
+  display: grid;
+  width: 70%;
+  margin: auto auto;
+  padding: 20px 0;
+  gap: 30px;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.foodImageWithText {
+  position: relative;
+  text-align: center; /*this part should be the wrong one */
+  color: white;
+}
+
+.mainContent img {
+  width: 100%;
+  height: 100%;
+}
+
+.foodText {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  font-size: 30pt;
+  background: rgba(158, 141, 141, 0.6352941176);
+}
+
+.header img {
+  height: 15px;
+  width: 15px;
+  margin-left: 10px;
+  background: white;
+}
+
+.footer img {
+  height: 15px;
+  width: 15px;
+  margin-left: 10px;
+  background: white;
+}
+
+.footer {
+  background: black;
+}
+
+#navigationBar {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  padding: 10px 200px;
+  color: white;
+}
+
+#navigationBar a:hover {
+  background: white;
+  color: black;
+}
+
+#navigationBar a,
+a:visited {
+  color: inherit; /*this one was tricky */
+  text-decoration: inherit;
+}
+
+#socialBar {
+  text-align: center;
+  display: block;
+  padding: 5px 0;
+  text-decoration: none;
+  color: white;
+}
+
+#socialBar a:hover {
+  background: white;
+}
+
+#designer {
+  flex-grow: 1;
+  text-align: center;
+  display: block;
+  padding: 5px 0;
+  color: white;
+}
+
+@media screen and (max-width: 480px) {
+  .mainContent {
+    grid-template-rows: repeat(9, 1fr);
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 480px) {
+  #navigationBar {
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 1fr;
+  }
+}
+/*added brakepoint for gap between 481px and 640px
+
+ @media screen and (min-width: 481px) and (max-width: 640px) {
+    .mainContent {
+        grid-template-rows: repeat(5, 2fr);
+        grid-template-columns: repeat(5, 2fr);
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 640px) {
+    #navigationBar {
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 5fr);
+    }
+
+} */
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+  .mainContent {
+    grid-template-rows: repeat(2, 5fr);
+    grid-template-columns: repeat(2, 5fr);
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+  #navigationBar {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 5fr);
+  }
+}
+#aboutUs {
+  text-align: center;
+  color: rgb(15, 7, 7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: url(images/aboutUs.jpg);
+  background-size: cover;
+}
+#aboutUs h1 {
+  margin-top: 50px;
+  font-size: 35pt;
+  font-family: "Great Vibes", cursive;
+  background-color: rgba(19, 6, 6, 0.2509803922);
+  position: relative;
+}
+
+.aboutUsText {
+  position: relative;
+  font-size: 15pt;
+  padding: 50px 200px;
+  background-color: rgba(255, 255, 255, 0.6352941176);
+}
+
+.about a {
+  text-decoration: none;
+}
+
+.about a:hover {
+  background: rgb(14, 2, 2);
+  color: white;
+}/*# sourceMappingURL=style.css.map */

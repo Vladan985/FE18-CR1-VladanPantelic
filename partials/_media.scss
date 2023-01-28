@@ -1,0 +1,48 @@
+@media screen and (max-width: 480px) {
+    .mainContent {
+        grid-template-rows: repeat(9, 1fr);
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #navigationBar {
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: 1fr;
+    }
+
+}
+
+/*added brakepoint for gap between 481px and 640px
+
+ @media screen and (min-width: 481px) and (max-width: 640px) {
+    .mainContent {
+        grid-template-rows: repeat(5, 2fr);
+        grid-template-columns: repeat(5, 2fr);
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 640px) {
+    #navigationBar {
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 5fr);
+    }
+
+} */
+
+
+
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+    .mainContent {
+        grid-template-rows: repeat(2, 5fr);
+        grid-template-columns: repeat(2,5fr);
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+    #navigationBar {
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 5fr);
+    }
+
+}

@@ -1,0 +1,47 @@
+#firstColumn {
+    display: flex;
+    padding: 0px 50px;
+}
+
+#title {
+    flex-grow: 1;
+    font-family: 'Great Vibes', cursive;
+    font-size: 20pt;
+}
+
+#search {
+    flex-grow: 1;
+    text-align: right;
+    padding-top: 20px;
+}
+
+#foodNavBar {
+    display: flex;
+}
+
+#foodNavBar a {
+    flex-grow: 1;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+#foodNavBar a:hover {
+    background: black;
+    color: white;
+}
+
+hr {
+    height: 2px;
+    background-color: grey;
+    color: grey;
+}
+h1{
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+}
+h2{
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+}

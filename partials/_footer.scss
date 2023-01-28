@@ -1,0 +1,42 @@
+.footer {
+    background: black;
+}
+
+#navigationBar {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    padding: 10px 200px;
+    color: white;
+}
+
+#navigationBar a:hover {
+    background: white;
+    color: black;
+}
+
+#navigationBar a,
+a:visited {
+    color: inherit;                 /*this one was tricky */
+    text-decoration: inherit;
+}
+
+#socialBar {
+
+    text-align: center;
+    display: block;
+    padding: 5px 0;
+    text-decoration: none;
+    color: white;
+}
+
+#socialBar a:hover {
+    background: white;
+}
+
+#designer {
+    flex-grow: 1;
+    text-align: center;
+    display: block;
+    padding: 5px 0;
+    color: white;
+}

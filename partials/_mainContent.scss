@@ -1,0 +1,28 @@
+.mainContent {
+    display: grid;
+    width: 70%;
+    margin: auto auto;
+    padding: 20px 0;
+    gap: 30px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.foodImageWithText {
+    position: relative;
+    text-align: center;     /*this part should be the wrong one */
+    color: white;
+}
+
+.mainContent img {
+    width: 100%;
+    height: 100%;
+}
+
+.foodText {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    font-size: 30pt;
+    background: #9e8d8da2;
+}
