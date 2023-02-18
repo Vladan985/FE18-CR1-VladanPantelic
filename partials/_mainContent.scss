@@ -21,8 +21,20 @@
 
 .foodText {
     position: absolute;
-    bottom: 10px;
-    left: 20px;
-    font-size: 30pt;
+    z-index: 1;
+    bottom: 10%;
+    top: 80%;
+    left: 5%;
+    right: 5%;
+    font-size: 1.5rem;
+}
+.background{
+    position: absolute;
+
     background: #9e8d8da2;
+    bottom: 2%;
+    top: 80%;
+    left: 5%;
+    right: 5%;
+    font-size: 1.5rem;
 }

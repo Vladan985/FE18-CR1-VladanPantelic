@@ -3,14 +3,38 @@
         grid-template-rows: repeat(9, 1fr);
         grid-template-columns: 1fr;
     }
+
 }
+
+@media screen and (max-width: 480px) {
+    .foodText {
+        position: absolute;
+        bottom: 2%;
+        top: 80%;
+        left: 5%;
+        right: 5%;
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .background{
+        position: absolute;
+        background: #9e8d8da2;
+        bottom: 2%;
+        top: 80%;
+        left: 2%;
+        right: 2%;
+    }
+    }
+
 
 @media screen and (max-width: 480px) {
     #navigationBar {
         grid-template-rows: repeat(4, 1fr);
         grid-template-columns: 1fr;
     }
-
 }
 
 /*added brakepoint for gap between 481px and 640px
@@ -37,6 +61,28 @@
         grid-template-rows: repeat(2, 5fr);
         grid-template-columns: repeat(2,5fr);
     }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+    .foodText {
+        position: absolute;
+        bottom: 5%;
+        top: 80%;
+        left: 5%;
+        right: 5%;
+        font-size: 1rem;
+    }
+
+}
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+.background{
+    position: absolute;
+    background: #9e8d8da2;
+    bottom: 2%;
+    top: 80%;
+    left: 2%;
+    right: 2%;
+}
 }
 
 @media screen and (min-width: 641px) and (max-width: 1007px) {
